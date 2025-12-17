@@ -24,25 +24,20 @@
                     <legend>Dados Pessoais</legend>
 
                     <label for="name">Nome:</label>
-                    <input id="name" type="text" name="userName" required>
-                    <br><br>
+                    <input id="name" type="text" name="userName" required>                    
 
                     <label for="age">Idade:</label>
                     <input id="age" type="number" name="userAge" min="12" max="100" required>
-                    <br><br>
 
                     <label for="birthDate">Data de Nascimento:</label>
                     <input id="birthDate" type="date" name="userBirthDate" required>
-                    <br><br>
 
                     <label for="email">E-mail:</label>
                     <input id="email" type="email" name="userEmail" required>
-                    <br><br>
 
                     <label for="phoneNumber">Telefone:</label>
                     <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}"
                         placeholder="11912345678" required>
-                    <br><br>
 
                     <label for="img">Upload de foto:</label>
                     <input id="img" type="file" accept="image/*" name="userImage">
@@ -59,8 +54,7 @@
 
                     <input id="notInformed" type="radio" name="userGender" value="notInformed" required>
                     <label for="notInformed">Prefiro não informar</label>
-                    <br><br>
-
+                    <br>
                     <label for="maritalStaus">Estado Civil:</label>
                     <select id="maritalStaus" name="UserMaritalStaus" required>
                         <option value="notInformed">Selecione...</option>
@@ -69,7 +63,6 @@
                         <option value="Divorciado">Divorciado</option>
                         <option value="União estável">União estável</option>
                     </select>
-                    <br><br>
                     <label for="state">Estado:</label>
                     <select id="state" name="userState" required>
                         <option value="acre">Acre</option>
@@ -107,16 +100,15 @@
                     <p>Redes Sociais</p>
                     <input id="instagram" type="checkbox" name="social" value="instagram">
                     <label for="instagram">Instagram</label>
-                    <br>
+
                     <input id="facebook" type="checkbox" name="social" value="facebook">
                     <label for="facebook">Facebook</label>
-                    <br>
+
                     <input id="linkedin" type="checkbox" name="social" value="linkedin">
                     <label for="linkedin">LinkedIn</label>
-                    <br>
+
                     <input id="x" type="checkbox" name="social" value="x">
                     <label for="x">X</label>
-                    <br><br>
 
                     <label for="musicStyle">Estilo Musical:</label>
                     <input list="styleTypes" id="musicStyle" type="text" name="userMusicStyle">
@@ -129,28 +121,28 @@
                         <option value="Jazz">
                         <option value="Eletrônica">
                     </datalist>
-                    <br><br>
+
                     <label for="favoriteColor">Cor favorita:</label>
                     <input type="color" id="userFavoriteColor" name="userFavoriteColor">
                 </fieldset>
 
                 <fieldset>
                     <legend>Opinião</legend>
-                    <label for="improvements">O que você acha da qualidade do nosso serviço?</label>
-                    <br>
+                    <label for="improvements">O que você acha da qualidade do nosso serviço?</label><br>
+
                     <input type="radio" id="otimo" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="otimo">Ótimo</label>
-                    <br>
+
                     <input type="radio" id="bom" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="bom">Bom</label>
-                    <br>
+
                     <input type="radio" id="regular" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="regular">Regular</label>
-                    <br>
-                    <input type="radio" id="ruim" name="userServiceQuality" min="0" max="10" step="1">
-                    <label for="ruim">Ruim</label>
-                    <br><br>
 
+                    <input type="radio" id="ruim" name="userServiceQuality" min="0" max="10" step="1">
+                    <label for="ruim">Ruim</label><br>
+
+                    
                     <label for="comment">Opinião:</label><br>
                     <textarea id="comment" name="usercomment" rows="4" cols="50"
                         placeholder="Escreva suas Opinião aqui..."></textarea>
@@ -160,7 +152,7 @@
                     <legend>Confirmações</legend>
                     <input type="checkbox" id="userLgpdTerm" name="userLgpd" value="accepted" required>
                     <label for="userLgpdTerm">Eu aceito participar da Pesquisa</label>
-                    <br>
+
                     <input type="checkbox" id="getResult" name="userGetResult" value="accepted">
                     <label for="getResult">Desejo receber o resultado por e-mail</label>
                 </fieldset>
