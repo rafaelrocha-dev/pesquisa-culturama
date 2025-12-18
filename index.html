@@ -37,7 +37,8 @@
 
                     <label for="phoneNumber">Telefone:</label>
                     <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}"
-                        placeholder="11912345678" required>
+                        placeholder="11912345678" required aria-describedby="phoneHelp">
+                        <small id="phoneHelp">Formato: apenas DDD + números, sem espaços.</small><br>
 
                     <label for="img">Upload de foto:</label>
                     <input id="img" type="file" accept="image/*" name="userImage">
@@ -135,7 +136,7 @@
 
                 <fieldset>
                     <legend>Opinião</legend>
-                    <legend>O que você acha da qualidade do nosso serviço?</legend><br>
+                    <p>O que você acha da qualidade do nosso serviço?</p><br>
 
                     <input type="radio" id="otimo" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="otimo">Ótimo</label>
@@ -149,10 +150,8 @@
                     <input type="radio" id="ruim" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="ruim">Ruim</label><br>
 
-                    
                     <label for="comment">Opinião:</label><br>
-                    <textarea id="comment" name="usercomment" rows="4" cols="50"
-                        placeholder="Escreva suas Opinião aqui..."></textarea>
+                    <textarea id="comment" name="usercomment" rows="4" cols="50" placeholder="Escreva suas Opinião aqui..."></textarea>
                 </fieldset>
 
                 <fieldset>
