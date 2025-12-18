@@ -24,7 +24,7 @@
                     <legend>Dados Pessoais</legend>
 
                     <label for="name">Nome:</label>
-                    <input id="name" type="text" name="userName" required>                    
+                    <input id="name" type="text" name="userName" required>
 
                     <label for="age">Idade:</label>
                     <input id="age" type="number" name="userAge" min="12" max="100" required>
@@ -122,8 +122,8 @@
                         <option value="Eletrônica">
                     </datalist>
 
-                    <label for="favoriteColor">Cor favorita:</label>
-                    <input type="color" id="userFavoriteColor" name="userFavoriteColor">
+                    <label for="userFavoriteColor">Cor favorita:</label>
+                    <input type="color" id="userFavoriteColor" name="userFavoriteColor" aria-label="Selecione sua cor favorita">
                 </fieldset>
 
                 <fieldset>
@@ -142,7 +142,7 @@
                     <input type="radio" id="ruim" name="userServiceQuality" min="0" max="10" step="1">
                     <label for="ruim">Ruim</label><br>
 
-                    
+
                     <label for="comment">Opinião:</label><br>
                     <textarea id="comment" name="usercomment" rows="4" cols="50"
                         placeholder="Escreva suas Opinião aqui..."></textarea>
